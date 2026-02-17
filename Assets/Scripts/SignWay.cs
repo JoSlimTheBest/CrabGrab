@@ -1,3 +1,4 @@
+using Game.Scripts.Core.Player.View;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,5 +30,17 @@ public class SignWay : MonoBehaviour
     public void DisableObject()
     {
         gameObject.SetActive(false);
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.GetComponent<PlayerView>() != null)
+        {
+            Animator anim = GetComponent<Animator>();
+            if (anim != null)
+            {
+                anim.SetTrigger("End");
+            }
+        }
     }
 }

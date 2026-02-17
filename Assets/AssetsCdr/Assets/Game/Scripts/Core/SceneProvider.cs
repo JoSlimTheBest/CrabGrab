@@ -34,5 +34,24 @@ namespace Game.Scripts.Core
 			if (_levelsRoot != null)
 				_levels = _levelsRoot.GetComponentsInChildren<OneLevel>(true);
         }
+
+        public OneLevel GetCurrentLevel()
+        {
+            foreach (var level in _levels)
+            {
+                if (level.VisualRoot != null && level.VisualRoot.activeSelf)
+                    return level;
+            }
+
+            return null;
+        }
+
+        public void RestartCurrentLevel()
+        {
+            var level = GetCurrentLevel();
+            if (level == null) return;
+
+            level.RestartLevel(_playerView.transform);
+        }
     }
 }
