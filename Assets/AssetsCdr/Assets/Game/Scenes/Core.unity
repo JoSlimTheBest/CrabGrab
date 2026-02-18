@@ -133,6 +133,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa637e94aaee4f51a4f0f67dd8101b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Scripts.Core.SceneProvider
+--- !u!1 &237093085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4961313752457372250, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+  m_PrefabInstance: {fileID: 2554813237599060554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!81 &237093094
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237093085}
+  m_Enabled: 1
 --- !u!1 &299251368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,9 +1677,25 @@ PrefabInstance:
       propertyPath: trapEffect
       value: 
       objectReference: {fileID: 299251368}
+    - target: {fileID: 7791611666195447397, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8013367568494998307, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: m_Name
       value: Trap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658491106737229659, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: MaxDistance
+      value: 3.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658491106737229659, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: MinDistance
+      value: 1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658491106737229659, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1793,7 +1822,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Core
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2307765314497886842, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1803,6 +1833,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7383976916395348279, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 330731813}
+    - targetCorrespondingSourceObject: {fileID: 4961313752457372250, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 237093094}
   m_SourcePrefab: {fileID: 100100000, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
