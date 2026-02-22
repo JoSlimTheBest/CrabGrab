@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: d454339b83256b84abfb4399948f842a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seascape_clouds_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 245
+        width: 272
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fcdbdb77cc7a74e877d3c9c088a6a3
+      internalID: 995487210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 200
+        width: 138
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04767f4c44d88ad4298e6cdc54df4b28
+      internalID: -1589022933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 198
+        width: 135
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75f207caff1b19409f0dbbae6f04f3b
+      internalID: 1155723781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 152
+        width: 137
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f7e509d4ec5a04ebf679f1706ae9c9
+      internalID: 808723451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 153
+        width: 131
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db39ee380e24414ab32440990cb9ced
+      internalID: 1929108253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 130
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2135c7492998947a45738ebf9851a9
+      internalID: 460454232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 130
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea41c8baf3215a48b305e536fd18934
+      internalID: 805724387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 130
+        width: 54
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38aa69d42404e448ba0c56b1c2d88e9
+      internalID: 1196433135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_8
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 129
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a5119b487609b4e810638871ae49ab
+      internalID: -293382129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cd9aca492df004a8e087179e0328e1
+      internalID: 1380398738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 105
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c094ad020ae8b3844884697df1663895
+      internalID: 2102985463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 104
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f585383d201514aabe1771fd46f823
+      internalID: 627802007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 104
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ef8c2fc1c4f974d98509c936bd7c57
+      internalID: 411229540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 71
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7101bec79228299469f04d25c98fdf92
+      internalID: 719519488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 71
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8e3be564c538a4c931bff067a5cb74
+      internalID: 386204727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 70
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4bcac45c9c41a43910d5b437d4db2d
+      internalID: -1282137211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 71
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40827943ff742b40a6136c186efbd9e
+      internalID: -613052766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 41
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73463809ca8ef184e8b19a54414db384
+      internalID: -630541147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_44
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 41
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4c57a72ccbfc47a0d68fa2a58385a
+      internalID: -27834588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 41
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d7c1e2192f5db4db5d631204e8b355
+      internalID: 848545710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 41
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c6736442d7f3408e5ba71bafc9734
+      internalID: -1937798476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 10
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e1fb2ec02656143a365fd352396a0f
+      internalID: -83051030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 10
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8dcfc8b2d2c044098f9506dd88697a
+      internalID: 1559115957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 10
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc3359a204db28459243a7009be0768
+      internalID: -1568212535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 104
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7badfe76641512f469cb629d893482e4
+      internalID: 1146712107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b39a6fbc93eea4793d104a28f79432
+      internalID: 729281554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seascape_clouds_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1d6eb6d5310594d9a95d4804a5994f
+      internalID: 683087130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 53878148aab672a47928346a18c5464d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      seascape_clouds_0: 995487210
+      seascape_clouds_1: -1589022933
+      seascape_clouds_10: 1146712107
+      seascape_clouds_11: 2102985463
+      seascape_clouds_12: 627802007
+      seascape_clouds_13: 411229540
+      seascape_clouds_14: 729281554
+      seascape_clouds_15: 683087130
+      seascape_clouds_16: 311829358
+      seascape_clouds_17: -801460881
+      seascape_clouds_18: -553860192
+      seascape_clouds_19: 2048147278
+      seascape_clouds_2: 1155723781
+      seascape_clouds_20: 837173551
+      seascape_clouds_21: 134167030
+      seascape_clouds_22: 570205978
+      seascape_clouds_23: 270778322
+      seascape_clouds_24: -1985607962
+      seascape_clouds_25: 1365026160
+      seascape_clouds_26: 719519488
+      seascape_clouds_27: 386204727
+      seascape_clouds_28: -1282137211
+      seascape_clouds_29: -613052766
+      seascape_clouds_3: 808723451
+      seascape_clouds_30: -1573794448
+      seascape_clouds_31: -119330245
+      seascape_clouds_32: -975733773
+      seascape_clouds_33: 381357827
+      seascape_clouds_34: -1109412211
+      seascape_clouds_35: -1101463583
+      seascape_clouds_36: -1422641408
+      seascape_clouds_37: -1523771295
+      seascape_clouds_38: 777281561
+      seascape_clouds_39: 940018157
+      seascape_clouds_4: 1929108253
+      seascape_clouds_40: -536209145
+      seascape_clouds_41: 604920239
+      seascape_clouds_42: -630541147
+      seascape_clouds_43: -1865146773
+      seascape_clouds_44: -27834588
+      seascape_clouds_45: 1539037300
+      seascape_clouds_46: 848545710
+      seascape_clouds_47: -1966038584
+      seascape_clouds_48: -1937798476
+      seascape_clouds_49: -573733766
+      seascape_clouds_5: 460454232
+      seascape_clouds_50: -1293168903
+      seascape_clouds_51: 1449135317
+      seascape_clouds_52: -393609861
+      seascape_clouds_53: -1270729204
+      seascape_clouds_54: -559436902
+      seascape_clouds_55: -83051030
+      seascape_clouds_56: 1559115957
+      seascape_clouds_57: -1568212535
+      seascape_clouds_58: 930381319
+      seascape_clouds_59: 123171311
+      seascape_clouds_6: 805724387
+      seascape_clouds_60: -1840502993
+      seascape_clouds_61: -1702378174
+      seascape_clouds_62: -734771594
+      seascape_clouds_63: 1505826838
+      seascape_clouds_64: -2123023460
+      seascape_clouds_65: -139713066
+      seascape_clouds_7: 1196433135
+      seascape_clouds_8: -293382129
+      seascape_clouds_9: 1380398738
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
