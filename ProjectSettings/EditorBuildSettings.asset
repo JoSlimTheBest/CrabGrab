@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AssetsCdr/Assets/Game/Scenes/Core1Scene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/AssetsCdr/Assets/Game/Scenes/2sceneBeach.unity
+    guid: 10f9e5b5e66c43d429f5727e69add86e
   m_configObjects: {}

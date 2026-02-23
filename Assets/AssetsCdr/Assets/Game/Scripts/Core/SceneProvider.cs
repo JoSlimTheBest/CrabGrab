@@ -52,6 +52,7 @@ namespace Game.Scripts.Core
             if (level == null) return;
 
             level.RestartLevel(_playerView.transform);
+            GameManager.Instance?.SetInputEnabled(true);
         }
     }
 }

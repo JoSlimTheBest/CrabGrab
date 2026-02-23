@@ -1,3 +1,4 @@
+using Game.Scripts.Core;
 using Game.Scripts.Core.Player.View;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ public class TrapAtack : MonoBehaviour
         if (other.GetComponent<PlayerView>()!=null)
         {
             trapEffect.SetActive(true); // Воспроизводим эффект ловушки
+            GameManager.Instance.SetInputEnabled(false);
             Debug.Log("Player hit by trap!");
         }
     }
