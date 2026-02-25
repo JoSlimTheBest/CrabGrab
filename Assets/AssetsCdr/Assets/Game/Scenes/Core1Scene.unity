@@ -465,16 +465,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: attackCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: attackDuration
-      value: 5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: restAfterCycle
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: delayBeforeStart
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: intervalBetweenAttacks
-      value: 0.56
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6908599678889908753, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: trapEffect
@@ -979,79 +991,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1891645591}
---- !u!1001 &596049447
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.15055758
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: attackDuration
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: delayBeforeStart
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: intervalBetweenAttacks
-      value: 0.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 6908599678889908753, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: trapEffect
-      value: 
-      objectReference: {fileID: 299251368}
-    - target: {fileID: 8013367568494998307, guid: 39147829bf645944e9c716355b741e30, type: 3}
-      propertyPath: m_Name
-      value: Trap_4 (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 39147829bf645944e9c716355b741e30, type: 3}
 --- !u!1 &820291756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9196823508062399437, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
@@ -1348,15 +1287,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: attackDuration
-      value: 5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: restAfterCycle
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: delayBeforeStart
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: intervalBetweenAttacks
-      value: 0.56
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6908599678889908753, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: trapEffect
@@ -1839,16 +1782,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: attackCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: attackDuration
-      value: 5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: restAfterCycle
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: delayBeforeStart
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: intervalBetweenAttacks
-      value: 0.56
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6908599678889908753, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: trapEffect
@@ -2520,11 +2471,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.58
+      value: 10.47
       objectReference: {fileID: 0}
     - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.63
+      value: 13.11
       objectReference: {fileID: 0}
     - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2557,6 +2508,22 @@ PrefabInstance:
     - target: {fileID: 4268704189865806678, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: restAfterCycle
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: delayBeforeStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
+      propertyPath: intervalBetweenAttacks
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6908599678889908753, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: trapEffect
@@ -2906,15 +2873,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: attackDuration
-      value: 5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: delayBeforeStart
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6792858669112949432, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: intervalBetweenAttacks
-      value: 0.56
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6908599678889908753, guid: 39147829bf645944e9c716355b741e30, type: 3}
       propertyPath: trapEffect
@@ -5216,7 +5183,6 @@ SceneRoots:
   - {fileID: 908694034}
   - {fileID: 1284744260}
   - {fileID: 482110274}
-  - {fileID: 596049447}
   - {fileID: 1891645591}
   - {fileID: 220449654}
   - {fileID: 1358215943}
