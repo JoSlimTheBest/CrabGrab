@@ -1,79 +1,81 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KillButtons : MonoBehaviour
 {
-    [Header("Cube Controllers")]
-    [SerializeField] private CubeController cubeW;
-    [SerializeField] private CubeController cubeA;
-    [SerializeField] private CubeController cubeS;
-    [SerializeField] private CubeController cubeD;
+    [Header("UI Images")]
+    [SerializeField] private Image imageW;
+    [SerializeField] private Image imageA;
+    [SerializeField] private Image imageS;
+    [SerializeField] private Image imageD;
 
-    private bool usedW, usedA, usedS, usedD;
-    private bool deactivatedW, deactivatedA, deactivatedS, deactivatedD;
+    [Header("Lit Sprites (что поставить после нажатия)")]
+    [SerializeField] private Sprite litW;
+    [SerializeField] private Sprite litA;
+    [SerializeField] private Sprite litS;
+    [SerializeField] private Sprite litD;
 
-    private bool allActivated = false;
+    private bool usedW;
+    private bool usedA;
+    private bool usedS;
+    private bool usedD;
+
+    private bool finished;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
-            HandleInput(KeyCode.W, cubeW, ref usedW, ref deactivatedW);
+        if (finished)
+            return;
 
-        if (Input.GetKeyDown(KeyCode.A))
-            HandleInput(KeyCode.A, cubeA, ref usedA, ref deactivatedA);
+        if (Input.GetKeyDown(KeyCode.W) && !usedW)
+        {
+            imageW.sprite = litW;
+            usedW = true;
+            CheckCompletion();
+        }
 
-        if (Input.GetKeyDown(KeyCode.S))
-            HandleInput(KeyCode.S, cubeS, ref usedS, ref deactivatedS);
+        if (Input.GetKeyDown(KeyCode.A) && !usedA)
+        {
+            imageA.sprite = litA;
+            usedA = true;
+            CheckCompletion();
+        }
 
-        if (Input.GetKeyDown(KeyCode.D))
-            HandleInput(KeyCode.D, cubeD, ref usedD, ref deactivatedD);
+        if (Input.GetKeyDown(KeyCode.S) && !usedS)
+        {
+            imageS.sprite = litS;
+            usedS = true;
+            CheckCompletion();
+        }
+
+        if (Input.GetKeyDown(KeyCode.D) && !usedD)
+        {
+            imageD.sprite = litD;
+            usedD = true;
+            CheckCompletion();
+        }
     }
 
-    private void HandleInput(KeyCode key, CubeController cube, ref bool usedFlag, ref bool deactivatedFlag)
+    private void CheckCompletion()
     {
-        // Первая фаза — активация
-        if (!allActivated)
+        if (usedW && usedA && usedS && usedD)
         {
-            cube.ActivateCube();
-            usedFlag = true;
-
-            if (usedW && usedA && usedS && usedD)
-            {
-                allActivated = true;
-                Debug.Log("Все кубы активированы. Ждём деактивации.");
-            }
-        }
-        else
-        {
-            // Вторая фаза — деактивация
-            if (!deactivatedFlag)
-            {
-                cube.DeActivateCube();
-                deactivatedFlag = true;
-            }
-
-            // Проверяем, все ли деактивированы
-            if (deactivatedW && deactivatedA && deactivatedS && deactivatedD)
-            {
-                Debug.Log("Все кубы деактивированы. Скрипт удаляется.");
-               Invoke("DestroyObj",1f);
-            }
+            finished = true;
+            Invoke(nameof(DestroyObj), 0.5f);
         }
     }
-
 
     private void DestroyObj()
     {
-        GetComponent<CanvasGroupFader>().FadeOut();
-        
-             Invoke("DestroyObjects", 3f); // Удаляем объекты после завершения анимации
+        CanvasGroupFader fader = GetComponent<CanvasGroupFader>();
+        if (fader != null)
+            fader.FadeOut();
+
+        Invoke(nameof(DestroyObjects), 3f);
     }
 
     private void DestroyObjects()
     {
-        if (cubeW != null) Destroy(cubeW.gameObject);
-        if (cubeA != null) Destroy(cubeA.gameObject);
-        if (cubeS != null) Destroy(cubeS.gameObject);
-        if (cubeD != null) Destroy(cubeD.gameObject);
-        Destroy(gameObject);    
+        Destroy(gameObject);
     }
 }
