@@ -54,5 +54,62 @@ namespace Game.Scripts.Core
             level.RestartLevel(_playerView.transform);
             GameManager.Instance?.SetInputEnabled(true);
         }
+
+        public void SetLevel(int lvl)
+        {
+            if (_levels == null || _levels.Length == 0)
+                return;
+
+            if (lvl < 0 || lvl >= _levels.Length)
+            {
+                Debug.LogWarning($"Level index {lvl} is out of range.");
+                return;
+            }
+
+            // Выключаем все уровни
+            foreach (var level in _levels)
+            {
+                if (level.VisualRoot != null)
+                    level.VisualRoot.SetActive(false);
+            }
+
+            // Включаем нужный
+            var targetLevel = _levels[lvl];
+            if (targetLevel.VisualRoot != null)
+                targetLevel.VisualRoot.SetActive(true);
+
+            // Рестарт уровня с позицией игрока
+            targetLevel.RestartLevel(_playerView.transform);
+
+            GameManager.Instance?.SetInputEnabled(true);
+        }
+
+
+        public void LoadNextLevel()
+        {
+            if (_levels == null || _levels.Length == 0)
+                return;
+
+            var current = GetCurrentLevel();
+            if (current == null)
+                return;
+
+            int currentIndex = System.Array.IndexOf(_levels, current);
+            if (currentIndex < 0)
+                return;
+
+            int nextIndex = currentIndex + 1;
+
+            // если это последний уровень
+            if (nextIndex >= _levels.Length)
+            {
+                Debug.Log("Last level reached.");
+                return;
+                // если хочешь зациклить:
+                // nextIndex = 0;
+            }
+
+            SetLevel(nextIndex);
+        }
     }
 }
