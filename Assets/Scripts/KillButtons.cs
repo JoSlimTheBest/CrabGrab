@@ -27,28 +27,28 @@ public class KillButtons : MonoBehaviour
         if (finished)
             return;
 
-        if (Input.GetKeyDown(KeyCode.W) && !usedW)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && !usedW)
         {
             imageW.sprite = litW;
             usedW = true;
             CheckCompletion();
         }
 
-        if (Input.GetKeyDown(KeyCode.A) && !usedA)
+        if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && !usedA)
         {
             imageA.sprite = litA;
             usedA = true;
             CheckCompletion();
         }
 
-        if (Input.GetKeyDown(KeyCode.S) && !usedS)
+        if ((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && !usedS)
         {
             imageS.sprite = litS;
             usedS = true;
             CheckCompletion();
         }
 
-        if (Input.GetKeyDown(KeyCode.D) && !usedD)
+        if ((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && !usedD)
         {
             imageD.sprite = litD;
             usedD = true;
@@ -65,7 +65,7 @@ public class KillButtons : MonoBehaviour
         }
     }
 
-    private void DestroyObj()
+    public void DestroyObj()
     {
         CanvasGroupFader fader = GetComponent<CanvasGroupFader>();
         if (fader != null)

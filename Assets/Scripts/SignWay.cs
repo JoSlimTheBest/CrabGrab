@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class SignWay : MonoBehaviour
 {
+
+    public KillButtons close;
     public void AnimationLevel(int currentLvl, Transform startPoint)
     {
         // Ставим объект на стартовую позицию уровня
@@ -41,6 +43,10 @@ public class SignWay : MonoBehaviour
             {
                 anim.SetTrigger("End");
             }
+            if (close != null)
+                close.GetComponent<KillButtons>().DestroyObj();
         }
+
+
     }
 }
