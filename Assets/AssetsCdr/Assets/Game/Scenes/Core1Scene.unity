@@ -20132,6 +20132,14 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[907].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 2880742312375657385, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880742312375657385, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.18
+      objectReference: {fileID: 0}
     - target: {fileID: 4565295326856608575, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Size.x
       value: 28
@@ -49404,6 +49412,22 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[959].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 6391415270866221767, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: attackCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391415270866221767, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: attackDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391415270866221767, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: restAfterCycle
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6391415270866221767, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: intervalBetweenAttacks
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6419754165861898862, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: trapEffect
       value: 
@@ -59159,6 +59183,22 @@ PrefabInstance:
     - target: {fileID: 6590424320476022559, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Tiles.Array.data[530].second.m_TileObjectToInstantiateIndex
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397279353174822783, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: attackCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397279353174822783, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: attackDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397279353174822783, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: restAfterCycle
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397279353174822783, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: intervalBetweenAttacks
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7425653297255919574, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: trapEffect
