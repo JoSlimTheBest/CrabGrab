@@ -13,7 +13,8 @@ public class TrapController : MonoBehaviour
     [SerializeField] private int attackCount = 3;
 
     [Header("Cycle Settings")]
-    [SerializeField] private float delayBeforeStart = 1f;   // ВРЕМЯ СВЕЧЕНИЯ ДО ПЕРВОГО УДАРА
+    [SerializeField] private float startDelay = 0f;        // ⏱ Задержка перед стартом ловушки
+    [SerializeField] private float delayBeforeStart = 1f;  // 🔦 Время свечения до первого удара
     [SerializeField] private float restAfterCycle = 3f;
     [SerializeField] private bool loop = true;
 
@@ -25,7 +26,16 @@ public class TrapController : MonoBehaviour
         if (warningLight != null)
             warningLight.SetActive(false);
 
-        StartCoroutine(TrapRoutine());
+        StartCoroutine(StartTrap());
+    }
+
+    private IEnumerator StartTrap()
+    {
+        // ⏳ Задержка перед запуском всей ловушки
+        if (startDelay > 0)
+            yield return new WaitForSeconds(startDelay);
+
+        yield return StartCoroutine(TrapRoutine());
     }
 
     private IEnumerator TrapRoutine()
@@ -36,18 +46,15 @@ public class TrapController : MonoBehaviour
             if (warningLight != null)
                 warningLight.SetActive(true);
 
-            // ⏳ Свет горит ДО первого удара
             yield return new WaitForSeconds(delayBeforeStart);
 
             for (int i = 0; i < attackCount; i++)
             {
-                // 💥 Включаем ловушку
                 if (trapObject != null)
                     trapObject.SetActive(true);
 
                 yield return new WaitForSeconds(attackDuration);
 
-                // 🔕 Выключаем ловушку
                 if (trapObject != null)
                     trapObject.SetActive(false);
 
@@ -55,7 +62,6 @@ public class TrapController : MonoBehaviour
                     yield return new WaitForSeconds(intervalBetweenAttacks);
             }
 
-            // 🔦 Выключаем свет после серии
             if (warningLight != null)
                 warningLight.SetActive(false);
 

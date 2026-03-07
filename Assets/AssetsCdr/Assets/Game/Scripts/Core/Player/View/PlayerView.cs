@@ -21,6 +21,8 @@ namespace Game.Scripts.Core.Player.View
         [Header("Movement Speed")]
         [SerializeField] private float horizontalSpeed = 1f; // скорость влево/вправо
         [SerializeField] private float verticalSpeed = 1f;   // скорость вперед/назад
+        [SerializeField] private Animator changeAnim;  // скорость вперед/назад
+        public float timeAnimatorOpen = 5f;
 
         private void OnValidate()
         {
@@ -33,6 +35,20 @@ namespace Game.Scripts.Core.Player.View
             if (_audioSource == null)
                 _audioSource = GetComponent<AudioSource>();
         }
+
+        public void Start()
+        {
+          //  Invoke("AnimationChanger", timeAnimatorOpen);
+        }
+
+
+        public void AnimationChanger()
+        {
+            Animator anim = GetComponent<Animator>();
+           
+        }
+
+
 
         #region Movement
 
@@ -50,6 +66,9 @@ namespace Game.Scripts.Core.Player.View
 
             _rb.MovePosition(target);
         }
+
+
+
 
         #endregion
 

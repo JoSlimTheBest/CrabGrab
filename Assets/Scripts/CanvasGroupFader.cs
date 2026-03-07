@@ -1,10 +1,13 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using UnityEngine;
 
 public class CanvasGroupFader : MonoBehaviour
 {
     [SerializeField] private CanvasGroup canvasGroup;
     [SerializeField] private float fadeDuration = 0.5f;
+
+    [Header("Start Settings")]
+    [SerializeField] private float startDelay = 3f; // ‚è± –ó–∞–¥–µ—Ä–∂–∫–∞ –ø–µ—Ä–µ–¥ –ø–µ—Ä–≤—ã–º –ø–æ—è–≤–ª–µ–Ω–∏–µ–º
 
     private Coroutine _currentFade;
 
@@ -13,7 +16,6 @@ public class CanvasGroupFader : MonoBehaviour
         if (canvasGroup == null)
             canvasGroup = GetComponent<CanvasGroup>();
 
-        // —‡ÁÛ ‰ÂÎ‡ÂÏ ‡Î¸ÙÛ 0, ˜ÚÓ·˚ FadeIn ·˚ÎÓ Á‡ÏÂÚÌÓ
         canvasGroup.alpha = 0f;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
@@ -21,12 +23,20 @@ public class CanvasGroupFader : MonoBehaviour
 
     private void Start()
     {
+        StartCoroutine(DelayedFadeIn());
+    }
+
+    private IEnumerator DelayedFadeIn()
+    {
+        if (startDelay > 0)
+            yield return new WaitForSeconds(startDelay);
+
         FadeIn();
     }
 
     public void FadeIn()
     {
-        StartFade(2f);
+        StartFade(1f); // ‚ö†Ô∏è –£ —Ç–µ–±—è –±—ã–ª–æ 2f ‚Äî –∞–ª—å—Ñ–∞ –¥–æ–ª–∂–Ω–∞ –±—ã—Ç—å –º–∞–∫—Å–∏–º—É–º 1
     }
 
     public void FadeOut()
@@ -56,7 +66,6 @@ public class CanvasGroupFader : MonoBehaviour
 
         canvasGroup.alpha = targetAlpha;
 
-        // ”Ô‡‚ÎÂÌËÂ ÍÎËÍ‡ÏË
         canvasGroup.interactable = targetAlpha > 0.9f;
         canvasGroup.blocksRaycasts = targetAlpha > 0.9f;
     }
