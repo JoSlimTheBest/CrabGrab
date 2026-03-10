@@ -14,9 +14,20 @@ public class TrapAtack : MonoBehaviour
 
         if (other.GetComponent<PlayerView>()!=null)
         {
-            trapEffect.SetActive(true); // Воспроизводим эффект ловушки
+
+
+            
+            other.GetComponent<PlayerView>().Dead();
             GameManager.Instance.SetInputEnabled(false);
             Debug.Log("Player hit by trap!");
+           
+             Invoke("AfterSecond", 0.22f);
         }
+    }
+
+
+    public void AfterSecond()
+    {
+        trapEffect.GetComponent<TrapController>().StopTrap();
     }
 }

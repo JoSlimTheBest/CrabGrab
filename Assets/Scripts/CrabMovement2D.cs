@@ -7,6 +7,9 @@ public class CrabMovement2D : MonoBehaviour
     [SerializeField] private float speedX = 5f;
     [SerializeField] private float speedY = 3f;
 
+    [Header("Animation")]
+    [SerializeField] private Animator animator;
+
     [Header("Options")]
     [SerializeField] private bool normalizeDiagonal = true;
 
@@ -20,13 +23,19 @@ public class CrabMovement2D : MonoBehaviour
 
     private void Update()
     {
-        float moveX = Input.GetAxisRaw("Horizontal"); // A/D или ← →
-        float moveY = Input.GetAxisRaw("Vertical");   // W/S или ↑ ↓
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
         _input = new Vector2(moveX, moveY);
 
         if (normalizeDiagonal && _input.magnitude > 1f)
             _input = _input.normalized;
+
+        // 🎬 Проверяем движение
+        bool isMoving = _input.sqrMagnitude > 0.01f;
+
+        if (animator != null)
+            animator.SetBool("isMoving", isMoving);
     }
 
     private void FixedUpdate()

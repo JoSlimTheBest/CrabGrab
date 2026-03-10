@@ -24,6 +24,8 @@ namespace Game.Scripts.Core.Player.View
         [SerializeField] private Animator changeAnim;  // скорость вперед/назад
         public float timeAnimatorOpen = 5f;
 
+        public GameObject canvasDead;
+
         private void OnValidate()
         {
             if (_rb == null)
@@ -39,6 +41,12 @@ namespace Game.Scripts.Core.Player.View
         public void Start()
         {
           //  Invoke("AnimationChanger", timeAnimatorOpen);
+        }
+
+        public void Dead()
+        {
+            canvasDead.SetActive(true);
+             
         }
 
 

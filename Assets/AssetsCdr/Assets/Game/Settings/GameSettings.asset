@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd44c42c77a25ff4d9f05e218d7a2286, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: Assembly-CSharp::Game.Scripts.Core.GameSettings
-  _playerMoveSpeed: 3
-  _cameraMoveSpeed: 20
+  _playerMoveSpeed: 4
+  _cameraMoveSpeed: 15
