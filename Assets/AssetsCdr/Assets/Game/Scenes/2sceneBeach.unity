@@ -4947,7 +4947,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level design - Artem Bagrov
+  m_text: "Level design \u2014 Artem Bagrov"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
   m_sharedMaterial: {fileID: 3469254363742551420, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
@@ -24454,7 +24454,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Art - Michael
+  m_text: "Art \u2014 Mikhail Ilyin"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
   m_sharedMaterial: {fileID: 3469254363742551420, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
@@ -29729,7 +29729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dev - Sergey Jo Slim
+  m_text: "Dev \u2014 Sergey Jo-Slim Zheludin"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
   m_sharedMaterial: {fileID: 3469254363742551420, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}

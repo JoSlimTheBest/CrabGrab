@@ -75187,6 +75187,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 299251368}
     - target: {fileID: 8939978470049867217, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: verticalSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939978470049867217, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: horizontalSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939978470049867217, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: _footstepClips.Array.size
       value: 9
       objectReference: {fileID: 0}
