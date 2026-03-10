@@ -232,9 +232,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 161
-        y: 93
+        y: 81
         width: 15
-        height: 40
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,27 +244,6 @@ TextureImporter:
       bones: []
       spriteID: abbe7ad4e98341240bc08b5f5703bf7c
       internalID: 647309737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy_6
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 82
-        width: 15
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67ef49886d6736f459315b5a4dba9205
-      internalID: -1095458387
       vertices: []
       indices: 
       edges: []

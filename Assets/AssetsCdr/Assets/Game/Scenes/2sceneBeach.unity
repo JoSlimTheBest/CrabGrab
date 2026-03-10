@@ -4901,6 +4901,7 @@ GameObject:
   - component: {fileID: 383772870}
   - component: {fileID: 383772872}
   - component: {fileID: 383772871}
+  - component: {fileID: 383772873}
   m_Layer: 5
   m_Name: Artem
   m_TagString: Untagged
@@ -4947,7 +4948,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Level design \u2014 Artem Bagrov"
+  m_text: "\u041B\u0435\u0432\u0435\u043B \u0414\u0438\u0437\u0430\u0439\u043D \u2014
+    Artem Bagrov"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
   m_sharedMaterial: {fileID: 3469254363742551420, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
@@ -5024,6 +5026,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383772869}
   m_CullTransparentMesh: 1
+--- !u!114 &383772873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383772869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec6e394a0d3af4a459e1c767d89cdbb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translations:
+  - lang: 1
+    text: "Level design \u2014 Artem Bagrov"
+  - lang: 2
+    text: "\u041B\u0435\u0432\u0435\u043B \u0414\u0438\u0437\u0430\u0439\u043D \u2014
+      Artem Bagrov"
+  - lang: 3
+    text: not translated
+  - lang: 4
+    text: not translated
+  _currentLanguage: 2
 --- !u!1 &386474852
 GameObject:
   m_ObjectHideFlags: 0
@@ -5659,7 +5684,7 @@ GameObject:
   - component: {fileID: 443503182}
   - component: {fileID: 443503185}
   m_Layer: 0
-  m_Name: Boy
+  m_Name: BoyBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7352,6 +7377,8 @@ Transform:
   m_Children:
   - {fileID: 1507865226}
   - {fileID: 762351480}
+  - {fileID: 1487485777}
+  - {fileID: 1646506916}
   - {fileID: 1193885463}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14982,11 +15009,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 2.2080002, z: 12.94}
-  m_LocalScale: {x: 4.488, y: 4.488, z: 4.488}
+  m_LocalScale: {x: 4.56, y: 4.56, z: 4.56}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 1487485777}
-  - {fileID: 1646506916}
+  m_Children: []
   m_Father: {fileID: 566122199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1193885464
@@ -15030,7 +15055,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1952139266, guid: a2c3872af4d76294eb61ac8ca46aed0e, type: 3}
+  m_Sprite: {fileID: -2068942696, guid: a2c3872af4d76294eb61ac8ca46aed0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19236,11 +19261,11 @@ Transform:
   m_GameObject: {fileID: 1487485776}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.764, y: -0.237, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.4288318, y: 1.1443443, z: 12.94}
+  m_LocalScale: {x: 4.4880004, y: 4.4880004, z: 4.4880004}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1193885463}
+  m_Father: {fileID: 566122199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1487485778
 SpriteRenderer:
@@ -21122,11 +21147,11 @@ Transform:
   m_GameObject: {fileID: 1646506915}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.68208003, z: 12.94}
+  m_LocalScale: {x: 4.4880004, y: 4.4880004, z: 4.4880004}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1193885463}
+  m_Father: {fileID: 566122199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1646506917
 Animator:
