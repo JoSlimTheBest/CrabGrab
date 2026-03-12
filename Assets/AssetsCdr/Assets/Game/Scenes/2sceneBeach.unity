@@ -3944,13 +3944,12 @@ MonoBehaviour:
   animator: {fileID: 310573912}
   normalizeDiagonal: 1
   stepClips:
-  - {fileID: 8300000, guid: ed3175a0d4ae8ae42a3ef1c949f76b1c, type: 3}
-  - {fileID: 8300000, guid: bfd00e0e94f50e348a919211b368adf2, type: 3}
-  - {fileID: 8300000, guid: 4591e371080784d4e87af7c94d85c8d1, type: 3}
-  - {fileID: 8300000, guid: c521454e99220c44996c261dc700cc0c, type: 3}
-  - {fileID: 8300000, guid: ccc4cf86db7b76248bb0d7bd08a0e039, type: 3}
-  - {fileID: 8300000, guid: 6366735071d2474439756ed1a0306b3e, type: 3}
-  - {fileID: 8300000, guid: 5c1e0389e3e3f2142b087134856534d5, type: 3}
+  - {fileID: 8300000, guid: a4ca9d0caa8c0e2499c1ecdb4375f8cb, type: 3}
+  - {fileID: 8300000, guid: c01250a10a2d0084f98ed2a78592f0ce, type: 3}
+  - {fileID: 8300000, guid: e19484e56d4216244a0ae4827d52a98f, type: 3}
+  - {fileID: 8300000, guid: bc280146bb4d6a548a90edad3810f035, type: 3}
+  - {fileID: 8300000, guid: 5dee8657060789e48b41521d2f7922db, type: 3}
+  - {fileID: 8300000, guid: 59b6dda7647bbc4448d53f73bfffae87, type: 3}
 --- !u!50 &310573910
 Rigidbody2D:
   serializedVersion: 4
@@ -4071,7 +4070,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 1c829635695356344886f780a592a1fc, type: 2}
   m_audioClip: {fileID: 8300000, guid: 76e3b9dd92d578f4eb4648ba733f8533, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
