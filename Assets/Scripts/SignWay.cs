@@ -49,4 +49,9 @@ public class SignWay : MonoBehaviour
 
 
     }
+
+    public void MusicPlay()
+    {
+        GetComponent<AudioSource>().Play();
+    }
 }
