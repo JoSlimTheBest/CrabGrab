@@ -2402,7 +2402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -295.57, y: -342.3}
+  m_AnchoredPosition: {x: -297, y: -342.3}
   m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1210493418
@@ -2419,13 +2419,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   translations:
   - lang: 1
-    text: use button
+    text: use the keys
   - lang: 2
-    text: "\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u043A\u043D\u043E\u043F\u043A\u0438"
-  - lang: 3
-    text: not translated
-  - lang: 4
-    text: not translated
+    text: "\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439 \u043A\u043D\u043E\u043F\u043A\u0438"
   _currentLanguage: 1
 --- !u!114 &1210493419
 MonoBehaviour:
@@ -2447,7 +2443,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: use button
+  m_text: use the keys
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
   m_sharedMaterial: {fileID: 3469254363742551420, guid: a451f06da23c3f94e9d9909602c794c5, type: 2}
@@ -33071,12 +33067,36 @@ PrefabInstance:
       objectReference: {fileID: 299251368}
     - target: {fileID: 5279063305920123708, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: startDelay
-      value: 4
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5279063305920123708, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: restAfterCycle
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5279063305920123708, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: delayBeforeStart
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5658287619075763000, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: trapEffect
       value: 
       objectReference: {fileID: 299251368}
+    - target: {fileID: 5702424271451900817, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702424271451900817, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: attackCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702424271451900817, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: restAfterCycle
+      value: 3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702424271451900817, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: delayBeforeStart
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5757137996765021462, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Tiles.Array.size
       value: 168
@@ -64331,7 +64351,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7597453323634316699, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: startDelay
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597453323634316699, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: attackCount
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597453323634316699, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: restAfterCycle
+      value: 2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597453323634316699, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: delayBeforeStart
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 7598434143568644446, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Enabled
