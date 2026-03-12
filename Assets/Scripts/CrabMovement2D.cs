@@ -16,6 +16,9 @@ public class CrabMovement2D : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _input;
 
+
+    public AudioClip[] stepClips; // Звуковой эффект шага
+
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -46,5 +49,14 @@ public class CrabMovement2D : MonoBehaviour
         );
 
         _rb.velocity = velocity;
+    }
+
+
+    public void AudioStep()
+    {
+        // Этот метод вызывается из анимации шага
+        // Здесь можно добавить код для воспроизведения звука шага
+        // Например:
+         GetComponent<AudioSource>().PlayOneShot(stepClips[Random.Range(0, stepClips.Length)]);
     }
 }
