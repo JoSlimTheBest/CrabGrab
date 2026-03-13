@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,10 +126,10 @@ TextureImporter:
       name: boy_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 152
-        width: 47
-        height: 33
+        x: 0
+        y: 144
+        width: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: boy_1
       rect:
         serializedVersion: 2
-        x: 75
-        y: 152
-        width: 47
-        height: 33
+        x: 64
+        y: 144
+        width: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: boy_2
       rect:
         serializedVersion: 2
-        x: 139
-        y: 152
-        width: 47
-        height: 33
+        x: 128
+        y: 144
+        width: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,12 +189,12 @@ TextureImporter:
       name: boy_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 81
-        width: 76
-        height: 55
+        x: 16
+        y: 80
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: boy_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 81
-        width: 76
-        height: 55
+        x: 80
+        y: 80
+        width: 16
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: boy_5
       rect:
         serializedVersion: 2
-        x: 161
-        y: 81
-        width: 15
-        height: 55
+        x: 96
+        y: 80
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: boy_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 17
-        width: 76
-        height: 55
+        x: 160
+        y: 80
+        width: 16
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: boy_8
       rect:
         serializedVersion: 2
-        x: 81
-        y: 17
-        width: 74
-        height: 55
+        x: 0
+        y: 16
+        width: 16
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,12 +294,12 @@ TextureImporter:
       name: boy_9
       rect:
         serializedVersion: 2
-        x: 161
-        y: 29
-        width: 15
-        height: 40
+        x: 16
+        y: 16
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: boy_10
       rect:
         serializedVersion: 2
-        x: 161
-        y: 18
-        width: 15
-        height: 10
+        x: 160
+        y: 16
+        width: 16
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,6 +328,69 @@ TextureImporter:
       bones: []
       spriteID: e42e0755781a0f74890cf2b81dc666fc
       internalID: -1983119056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea280e5bb5aa184ca77b808a7f82ac5
+      internalID: -1095458387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b22d23fe9c96449981afd54b5af328
+      internalID: -2118975886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0de00748e7abd4ba5712fbea91df93
+      internalID: 245954172
       vertices: []
       indices: 
       edges: []
@@ -346,6 +409,8 @@ TextureImporter:
       boy_0: -48644751
       boy_1: -458764021
       boy_10: -1983119056
+      boy_11: -2118975886
+      boy_12: 245954172
       boy_2: -1200356840
       boy_3: -33533620
       boy_4: 1223237272
