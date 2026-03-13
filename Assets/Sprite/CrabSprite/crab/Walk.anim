@@ -22,17 +22,17 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -1366638282, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
-    - time: 0.16666667
+    - time: 0.11666667
       value: {fileID: -53317455, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
-    - time: 0.31666666
+    - time: 0.23333333
       value: {fileID: 2111514310, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
-    - time: 0.48333332
+    - time: 0.35
       value: {fileID: 2099478196, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
-    - time: 0.68333334
+    - time: 0.48333332
       value: {fileID: -543742696, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
-    - time: 0.8333333
+    - time: 0.6
       value: {fileID: 1616526830, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
-    - time: 1
+    - time: 0.71666664
       value: {fileID: 625856518, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
     attribute: m_Sprite
     path: 
@@ -68,7 +68,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0166667
+    m_StopTime: 0.7333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -95,14 +95,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.46666667
-    functionName: AudioStep
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.98333335
+  - time: 0.48333332
     functionName: AudioStep
     data: 
     objectReferenceParameter: {fileID: 0}
