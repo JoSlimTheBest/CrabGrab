@@ -1445,7 +1445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -730, y: 350}
+  m_AnchoredPosition: {x: 0, y: -164}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &855214201
@@ -1523,7 +1523,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855214199}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2925,6 +2925,7 @@ GameObject:
   - component: {fileID: 1552999190}
   - component: {fileID: 1552999192}
   - component: {fileID: 1552999191}
+  - component: {fileID: 1552999193}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2971,7 +2972,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0441\u043D\u043E\u0432\u0430"
+  m_text: Try again [SPACE]
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 223e197a54962614fafbc080244731d2, type: 2}
   m_sharedMaterial: {fileID: -1833189089969819613, guid: 223e197a54962614fafbc080244731d2, type: 2}
@@ -3048,6 +3049,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552999189}
   m_CullTransparentMesh: 1
+--- !u!114 &1552999193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552999189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec6e394a0d3af4a459e1c767d89cdbb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translations:
+  - lang: 1
+    text: Try again [SPACE]
+  - lang: 2
+    text: not translated
+  _currentLanguage: 1
 --- !u!1 &1589470773
 GameObject:
   m_ObjectHideFlags: 0
