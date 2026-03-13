@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\GitRepositor\\CrabGrab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\camerafollowx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollowx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\crabmovement2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crabmovement2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|c:\\gitrepositor\\crabgrab\\assets\\scripts\\trapatack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|c:\\gitrepositor\\crabgrab\\assets\\scripts\\buttonkeyboardtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonkeyboardtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|c:\\gitrepositor\\crabgrab\\assets\\scripts\\signway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\signway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\localiztionscripts\\componentstouse\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localiztionscripts\\componentstouse\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\camerafollowx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollowx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\trapatack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trapatack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\killbuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\killbuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\signway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\signway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\assetscdr\\assets\\game\\scripts\\core\\sceneprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,59 +113,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrapAtack.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\TrapAtack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TrapAtack.cs",
-              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\TrapAtack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TrapAtack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ButtonKeyboardTrigger.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\ButtonKeyboardTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonKeyboardTrigger.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\ButtonKeyboardTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonKeyboardTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T03:00:29.736Z",
+              "WhenOpened": "2026-03-13T13:56:13.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OneLevel.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
-              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
-              "RelativeToolTip": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAiwFMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LanguageManager.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\LocaliztionScripts\\ComponentsToUse\\LanguageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LocaliztionScripts\\ComponentsToUse\\LanguageManager.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\LocaliztionScripts\\ComponentsToUse\\LanguageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LocaliztionScripts\\ComponentsToUse\\LanguageManager.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAASwIYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T18:00:30.563Z"
+              "WhenOpened": "2026-03-13T13:38:19.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReadmeEditor.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
-              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
-              "RelativeToolTip": "Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:54:31.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
-              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
-              "RelativeToolTip": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAwDAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T02:03:23.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "SceneProvider.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\SceneProvider.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\SceneProvider.cs",
@@ -169,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CanvasGroupFader.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CanvasGroupFader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CanvasGroupFader.cs",
@@ -181,7 +166,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "SignWay.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\SignWay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SignWay.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\SignWay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SignWay.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T02:11:31.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
+              "RelativeToolTip": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwDAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T02:03:23.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PlayerView.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\View\\PlayerView.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\View\\PlayerView.cs",
@@ -193,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "EndGame.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\EndGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndGame.cs",
@@ -205,20 +215,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CrabMovement2D.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CrabMovement2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CrabMovement2D.cs",
               "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CrabMovement2D.cs",
               "RelativeToolTip": "Assets\\Scripts\\CrabMovement2D.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T14:09:00.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CameraFollowX.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CameraFollowX.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollowX.cs",
@@ -226,12 +236,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraFollowX.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:13:33.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T14:13:33.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "KillButtons.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\KillButtons.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KillButtons.cs",
@@ -243,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TrapController.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\TrapController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TrapController.cs",
@@ -255,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "InfoBoy.txt",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Sprite\\boy\\InfoBoy.txt",
               "RelativeDocumentMoniker": "Assets\\Sprite\\boy\\InfoBoy.txt",
@@ -267,19 +276,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignWay.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\SignWay.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SignWay.cs",
-              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\SignWay.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SignWay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ReadmeEditor.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeToolTip": "Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T02:11:31.802Z"
+              "WhenOpened": "2026-02-17T17:54:31.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
+              "Title": "OneLevel.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
+              "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
+              "RelativeToolTip": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T18:00:30.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TrapAtack.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\TrapAtack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TrapAtack.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\TrapAtack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TrapAtack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T03:00:29.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ParallaxLayer.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\ParallaxLayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxLayer.cs",
@@ -291,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "CubeController.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CubeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeController.cs",
@@ -303,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ImageFollowCube.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\ImageFollowCube.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ImageFollowCube.cs",
@@ -315,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "EntryPoint.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\EntryPoint.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\EntryPoint.cs",
@@ -327,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AutoDestroy.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\AutoDestroy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AutoDestroy.cs",
@@ -339,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "BlurSizer.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\BlurSizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BlurSizer.cs",
@@ -351,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "BlurVisit.shader",
               "DocumentMoniker": "C:\\GitRepositor\\Repair_This1.25b\\Assets\\Scripts\\Shader\\BlurVisit.shader",
               "RelativeDocumentMoniker": "..\\Repair_This1.25b\\Assets\\Scripts\\Shader\\BlurVisit.shader",
@@ -364,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "SpriteBlurURP.shader",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\SpriteBlurURP.shader",
               "RelativeDocumentMoniker": "Assets\\SpriteBlurURP.shader",
@@ -376,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
@@ -388,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "InfoBoy.txt",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Sprite\\CrabSprite\\boy\\InfoBoy.txt",
               "RelativeDocumentMoniker": "Assets\\Sprite\\CrabSprite\\boy\\InfoBoy.txt",

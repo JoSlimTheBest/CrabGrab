@@ -35,6 +35,8 @@ namespace SimpleLocalizator {
 			}
 		}
 
+
+
         static bool initLang = false;
         #endregion
 
@@ -130,6 +132,8 @@ namespace SimpleLocalizator {
 		void Start() {
 
 
+			currentGlobalLang = Language.English;
+            /*
 			if (PlayerPrefs.HasKey("lang"))
 			{
 				if(PlayerPrefs.GetInt("lang") == 1)
@@ -176,8 +180,9 @@ namespace SimpleLocalizator {
                     Debug.Log("LanguageManager: initialized. Current language: " + currentLang);
                 }
             }
-           
-		}
+			*/
+
+        }
 
 		public void TakeLanguage()
         {

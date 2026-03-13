@@ -1,22 +1,46 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
+
 public class RapidPressBar : MonoBehaviour
 {
     [Header("UI")]
-    [SerializeField] private Image fillImage; // Картинка круга
+    [SerializeField] private Image fillImage;
+
+    [Header("Fade")]
+    [SerializeField] private Image fadeImage;     // экранный Image
+    [SerializeField] private float fadeTime = 2f; // время перехода
 
     [Header("Settings")]
-    [SerializeField] private float pressAddPercent = 15f; // сколько % даёт нажатие
-    [SerializeField] private float decayPerSecond = 3f;   // сколько % теряется в секунду
+    [SerializeField] private float pressAddPercent = 15f;
+    [SerializeField] private float decayPerSecond = 3f;
     [SerializeField] private float maxPercent = 100f;
 
     private float currentPercent;
 
-
     public AudioClip[] clips;
+    public AudioSource audioSource;
+
+    private bool isTransition = false;
+
+    private void Awake()
+    {
+       
+
+        if (fadeImage != null)
+        {
+            Color c = fadeImage.color;
+            c.a = 0;
+            fadeImage.color = c;
+        }
+    }
+
     private void Update()
     {
+        if (isTransition)
+            return;
+
         HandleInput();
         DecayBar();
         UpdateUI();
@@ -31,10 +55,11 @@ public class RapidPressBar : MonoBehaviour
 
             if (currentPercent >= maxPercent)
             {
-                NextLVL();
+                StartCoroutine(NextLVL());
                 currentPercent = 0;
             }
-            GetComponent<AudioSource>().PlayOneShot(clips[Random.Range(0, clips.Length)]);
+
+            audioSource.PlayOneShot(clips[Random.Range(0, clips.Length)]);
         }
     }
 
@@ -52,10 +77,36 @@ public class RapidPressBar : MonoBehaviour
         }
     }
 
-    void NextLVL()
+    IEnumerator NextLVL()
     {
+        isTransition = true;
+
         fillImage.gameObject.SetActive(false);
 
-        SceneManager.LoadScene(2);
+        float t = 0;
+        Color c = fadeImage.color;
+
+        while (t < fadeTime)
+        {
+            t += Time.deltaTime;
+            float progress = t / fadeTime;
+
+            // Alpha увеличивается
+            c.a = progress;
+
+            // Цвет меняется от чёрного к белому
+            c.r = progress;
+            c.g = progress;
+            c.b = progress;
+
+            fadeImage.color = c;
+
+            // затухание музыки
+            audioSource.volume = 1f - progress;
+
+            yield return null;
+        }
+
+        SceneManager.LoadScene(1);
     }
 }

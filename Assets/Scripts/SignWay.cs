@@ -7,6 +7,7 @@ public class SignWay : MonoBehaviour
 {
 
     public KillButtons close;
+    public AudioClip lightSound;
     public void AnimationLevel(int currentLvl, Transform startPoint)
     {
         // Ставим объект на стартовую позицию уровня
@@ -47,11 +48,12 @@ public class SignWay : MonoBehaviour
                 close.GetComponent<KillButtons>().DestroyObj();
         }
 
+        MusicPlay();
 
     }
 
     public void MusicPlay()
     {
-        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().PlayOneShot(lightSound);
     }
 }
