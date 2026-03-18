@@ -515,7 +515,12 @@ MonoBehaviour:
   shakeDuration: 0.1
   animator: {fileID: 310573912}
   finishTrigger: Finish
-  clips: []
+  clips:
+  - {fileID: 8300000, guid: 0aff78427b6b12342acf8397536aa241, type: 3}
+  - {fileID: 8300000, guid: 3e6cfd1c579d9f649b83f34b732527ef, type: 3}
+  - {fileID: 8300000, guid: ef9847f22c0f91742a3406e3712c18e3, type: 3}
+  - {fileID: 8300000, guid: d92cae571e220f14a889af72e4a6042f, type: 3}
+  - {fileID: 8300000, guid: 23dc257567c69144aa1a6aa79074dad9, type: 3}
   audioSource: {fileID: 0}
 --- !u!1 &27930174
 GameObject:
@@ -14308,7 +14313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1105011008
 MonoBehaviour:
   m_ObjectHideFlags: 0

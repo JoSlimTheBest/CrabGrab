@@ -22,12 +22,27 @@ public class KillButtons : MonoBehaviour
 
     private bool finished;
 
+    public float timing = 4;
+    
+
+
+
+
     private void Update()
     {
+
+      
         if (finished)
             return;
 
-        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && !usedW)
+        if(timing > 0)
+        {
+            timing -= Time.deltaTime;
+            return;
+        }
+
+
+            if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && !usedW)
         {
             imageW.sprite = litW;
             usedW = true;
