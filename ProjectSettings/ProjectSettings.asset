@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: CatNebulaGames
-  productName: TheWay
+  companyName: Artem Bagrov & CO
+  productName: The Way
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -162,7 +162,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.CatNebulaGames.The-Way
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -290,7 +291,7 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 858e8b780ef80ba4f8a093db3a30e03a, type: 3}
+      m_Icon: {fileID: 2800000, guid: a594483523b8d0848b82e73f5b17af0e, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 0

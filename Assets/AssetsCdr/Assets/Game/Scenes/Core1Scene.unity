@@ -1052,6 +1052,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19978702, guid: 3e7feeaf9019cc14eae4785e09f758ec, type: 3}
+      propertyPath: m_SortingOrder
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 19978702, guid: 3e7feeaf9019cc14eae4785e09f758ec, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1901,6 +1905,10 @@ PrefabInstance:
     - target: {fileID: 19965890, guid: 3e7feeaf9019cc14eae4785e09f758ec, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19978702, guid: 3e7feeaf9019cc14eae4785e09f758ec, type: 3}
+      propertyPath: m_SortingOrder
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 19978702, guid: 3e7feeaf9019cc14eae4785e09f758ec, type: 3}
       propertyPath: m_Materials.Array.size
@@ -4412,6 +4420,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19978702, guid: 3e7feeaf9019cc14eae4785e09f758ec, type: 3}
+      propertyPath: m_SortingOrder
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 19978702, guid: 3e7feeaf9019cc14eae4785e09f758ec, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -4933,6 +4945,10 @@ PrefabInstance:
       propertyPath: lightSound
       value: 
       objectReference: {fileID: 8300000, guid: 63f0ae369e49db445b1229e341f95d61, type: 3}
+    - target: {fileID: 711598083052096339, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: m_SortingOrder
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 711598083052753749, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: RotationModule.x.minMaxState
       value: 3
