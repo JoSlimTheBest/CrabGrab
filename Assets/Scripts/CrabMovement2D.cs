@@ -14,31 +14,25 @@ public class CrabMovement2D : MonoBehaviour
     [SerializeField] private bool normalizeDiagonal = true;
 
     [Header("Start Lock")]
-    [SerializeField] private float startLockTime = 3f;
+    [SerializeField] private bool startLocked = true; // стартовая блокировка
 
     private Rigidbody2D _rb;
     private Vector2 _input;
 
-    private float lockTimer;
+    public bool canMove = false; // новая переменная
 
     public AudioClip[] stepClips;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
-    }
-
-    private void Start()
-    {
-        lockTimer = startLockTime;
+        canMove = !startLocked; // если startLocked = true → canMove = false
     }
 
     private void Update()
     {
-        // ⛔ Блокировка управления
-        if (lockTimer > 0f)
+        if (!canMove)
         {
-            lockTimer -= Time.deltaTime;
             _input = Vector2.zero;
 
             if (animator != null)
@@ -63,7 +57,7 @@ public class CrabMovement2D : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (lockTimer > 0f)
+        if (!canMove)
         {
             _rb.velocity = Vector2.zero;
             return;
@@ -79,6 +73,19 @@ public class CrabMovement2D : MonoBehaviour
 
     public void AudioStep()
     {
+        if (stepClips.Length == 0) return;
+
         GetComponent<AudioSource>().PlayOneShot(stepClips[Random.Range(0, stepClips.Length)]);
+    }
+
+    /// <summary>
+    /// Включить или выключить управление
+    /// </summary>
+    public void SetCanMove(bool value)
+    {
+        canMove = value;
+
+        if (!canMove && animator != null)
+            animator.SetBool("isMoving", false);
     }
 }

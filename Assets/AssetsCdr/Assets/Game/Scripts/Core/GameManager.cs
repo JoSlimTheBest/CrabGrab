@@ -17,6 +17,7 @@ namespace Game.Scripts.Core
         private bool _isTransitioning;
         private float _transitionEndsAt;
         public static GameManager Instance { get; private set; }
+        public PlayerController PlayerController => _playerController;
 
         public GameManager(SceneProvider sceneProvider)
         {

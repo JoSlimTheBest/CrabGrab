@@ -1958,6 +1958,7 @@ GameObject:
   - component: {fileID: 1059312240}
   - component: {fileID: 1059312239}
   - component: {fileID: 1059312241}
+  - component: {fileID: 1059312242}
   m_Layer: 0
   m_Name: EndGameOBject
   m_TagString: Untagged
@@ -2038,6 +2039,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   open: {fileID: 1589470773}
+--- !u!114 &1059312242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059312237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c661cb18476e1d043b619b34aff42606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableTime: 5
+  delayBeforeBlock: 0.5
 --- !u!1 &1098196290
 GameObject:
   m_ObjectHideFlags: 0
@@ -77062,6 +77077,10 @@ PrefabInstance:
       propertyPath: lightSound
       value: 
       objectReference: {fileID: 8300000, guid: 63f0ae369e49db445b1229e341f95d61, type: 3}
+    - target: {fileID: 8939978470049867217, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8939978470049867217, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: canvasDead
       value: 

@@ -40,7 +40,8 @@ namespace Game.Scripts.Core.Player.View
 
         public void Start()
         {
-          //  Invoke("AnimationChanger", timeAnimatorOpen);
+            //  Invoke("AnimationChanger", timeAnimatorOpen);
+          //  GameManager.Instance.SetInputEnabled(false, 5f);
         }
 
         public void Dead()
