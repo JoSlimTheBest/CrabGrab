@@ -22929,6 +22929,10 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[907].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 2218751470823687732, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: m_Radius
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 2420818374743883970, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: Loop
       value: 1
