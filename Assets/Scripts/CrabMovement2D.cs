@@ -27,6 +27,11 @@ public class CrabMovement2D : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         canMove = !startLocked; // если startLocked = true → canMove = false
+        Invoke("OpenMove", 4f);
+    }
+    public void OpenMove()
+    {
+        canMove = true;
     }
 
     private void Update()
