@@ -2610,6 +2610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 1721128151}
+  canvasio: {fileID: 299251368}
 --- !u!1 &1098196290
 GameObject:
   m_ObjectHideFlags: 0

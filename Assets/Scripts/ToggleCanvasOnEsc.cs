@@ -8,6 +8,8 @@ public class ToggleCanvasOnEsc : MonoBehaviour
 
     private bool isOpen;
 
+    public GameObject canvasio;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -22,6 +24,10 @@ public class ToggleCanvasOnEsc : MonoBehaviour
 
     public void OpenUp()
     {
+        if (canvasio.activeSelf == true)
+        {
+            return;
+        }
         isOpen = !isOpen;
 
         if (canvasObject != null)
