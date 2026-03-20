@@ -1,3 +1,5 @@
+using Game.Scripts.Core;
+using Game.Scripts.Core.Player.Controllers;
 using UnityEngine;
 
 public class ToggleCanvasOnEsc : MonoBehaviour
@@ -23,6 +25,11 @@ public class ToggleCanvasOnEsc : MonoBehaviour
         isOpen = !isOpen;
 
         if (canvasObject != null)
+        {
             canvasObject.SetActive(isOpen);
+
+            // ВАЖНО: инверсия
+            GameManager.Instance.SetInputEnabled(!isOpen);
+        }
     }
 }

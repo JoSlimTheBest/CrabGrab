@@ -10,6 +10,8 @@ public class EndCanvasOpen : MonoBehaviour
 
     private bool opened;
 
+    public CrabMovement2D cd2d;
+
     void Update()
     {
         if (opened)
@@ -31,5 +33,9 @@ public class EndCanvasOpen : MonoBehaviour
 
         if (targetObject != null)
             targetObject.SetActive(true);
+
+
+
+         cd2d.SetCanMove (false); // блокируем движение краба
     }
 }

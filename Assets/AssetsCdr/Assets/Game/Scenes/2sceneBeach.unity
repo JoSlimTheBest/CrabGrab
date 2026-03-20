@@ -7243,6 +7243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 1525857590}
   timing: 122
+  cd2d: {fileID: 310573909}
 --- !u!114 &487654131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7693,7 +7694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &522115395
 RectTransform:
   m_ObjectHideFlags: 0
