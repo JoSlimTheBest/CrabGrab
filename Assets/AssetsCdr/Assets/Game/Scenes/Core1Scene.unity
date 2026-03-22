@@ -4936,11 +4936,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 212658779666194689, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Volume
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 329766327977834924, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Volume
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 467080425824145174, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: lightSound
@@ -7648,7 +7648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1369756470744762618, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Volume
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1761206592363088321, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Size.y
@@ -22960,7 +22960,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5258c519bf2aa47439f3a50cbd4a7a71, type: 3}
     - target: {fileID: 2512753061326333862, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Volume
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2624156405698428461, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_LocalScale.x
@@ -23000,7 +23000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3249609308604022082, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Volume
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3327112010401999826, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_FalloffIntensity
