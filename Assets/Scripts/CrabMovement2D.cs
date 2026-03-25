@@ -19,7 +19,12 @@ public class CrabMovement2D : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _input;
 
-    public bool canMove = false; // новая переменная
+    [Header("Touch / Mouse")]
+    [SerializeField] private float maxTouchDistance = 100f; // радиус "виртуального джойстика"
+    private Vector2 startTouchPos;
+    private int touchId = -1;
+
+    public bool canMove = false;
 
     public AudioClip[] stepClips;
 
@@ -29,6 +34,7 @@ public class CrabMovement2D : MonoBehaviour
         canMove = !startLocked; // если startLocked = true → canMove = false
         Invoke("OpenMove", 4f);
     }
+
     public void OpenMove()
     {
         canMove = true;
@@ -46,6 +52,22 @@ public class CrabMovement2D : MonoBehaviour
             return;
         }
 
+        // 📱 Сначала проверяем тач/мышь
+        HandleTouchInput();
+
+        // 🖥 Если тач/мышь нет — используем клавиатуру
+        if (_input == Vector2.zero)
+            HandleKeyboardInput();
+
+        // Анимация
+        bool isMoving = _input.sqrMagnitude > 0.01f;
+
+        if (animator != null)
+            animator.SetBool("isMoving", isMoving);
+    }
+
+    private void HandleKeyboardInput()
+    {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
@@ -53,11 +75,62 @@ public class CrabMovement2D : MonoBehaviour
 
         if (normalizeDiagonal && _input.magnitude > 1f)
             _input = _input.normalized;
+    }
 
-        bool isMoving = _input.sqrMagnitude > 0.01f;
+    private void HandleTouchInput()
+    {
+        // 🖱 Мышь
+        if (Input.mousePresent)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                startTouchPos = Input.mousePosition;
+            }
 
-        if (animator != null)
-            animator.SetBool("isMoving", isMoving);
+            if (Input.GetMouseButton(0))
+            {
+                Vector2 delta = (Vector2)Input.mousePosition - startTouchPos;
+                _input = Vector2.ClampMagnitude(delta / maxTouchDistance, 1f);
+            }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                _input = Vector2.zero;
+            }
+        }
+
+        // 📱 Тач
+        if (Input.touchCount > 0)
+        {
+            for (int i = 0; i < Input.touchCount; i++)
+            {
+                Touch touch = Input.GetTouch(i);
+
+                if (touch.phase == TouchPhase.Began && touchId == -1)
+                {
+                    touchId = touch.fingerId;
+                    startTouchPos = touch.position;
+                }
+
+                if (touch.fingerId == touchId)
+                {
+                    if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
+                    {
+                        Vector2 delta = touch.position - startTouchPos;
+                        _input = Vector2.ClampMagnitude(delta / maxTouchDistance, 1f);
+                    }
+
+                    if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+                    {
+                        _input = Vector2.zero;
+                        touchId = -1;
+                    }
+                }
+            }
+        }
+
+        if (normalizeDiagonal && _input.magnitude > 1f)
+            _input = _input.normalized;
     }
 
     private void FixedUpdate()
@@ -83,9 +156,6 @@ public class CrabMovement2D : MonoBehaviour
         GetComponent<AudioSource>().PlayOneShot(stepClips[Random.Range(0, stepClips.Length)]);
     }
 
-    /// <summary>
-    /// Включить или выключить управление
-    /// </summary>
     public void SetCanMove(bool value)
     {
         canMove = value;
