@@ -19,10 +19,12 @@ namespace Game.Scripts.Core.Player.Controllers
         {
             var velocity = _input.GetMoveInput();
 
-            // 1️⃣ Двигаем игрока каждый кадр, даже если скорость 0
-            _view.MoveByVelocity(velocity, fixedDeltaTime);
+            // ❗ Не затираем движение тача
+            if (velocity.sqrMagnitude > 0.001f)
+            {
+                _view.MoveByVelocity(velocity, fixedDeltaTime);
+            }
 
-            // 2️⃣ Устанавливаем флаг движения для анимации
             _view.SetMoving(velocity.sqrMagnitude > 0.001f);
         }
 
