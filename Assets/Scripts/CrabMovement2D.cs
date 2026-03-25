@@ -52,12 +52,11 @@ public class CrabMovement2D : MonoBehaviour
             return;
         }
 
-        // 📱 Сначала проверяем тач/мышь
-        HandleTouchInput();
+        Vector2 touchInput = GetTouchInput();
+        Vector2 keyboardInput = GetKeyboardInput();
 
-        // 🖥 Если тач/мышь нет — используем клавиатуру
-        if (_input == Vector2.zero)
-            HandleKeyboardInput();
+        // Приоритет: если есть тач → используем его
+        _input = touchInput != Vector2.zero ? touchInput : keyboardInput;
 
         // Анимация
         bool isMoving = _input.sqrMagnitude > 0.01f;
@@ -65,7 +64,53 @@ public class CrabMovement2D : MonoBehaviour
         if (animator != null)
             animator.SetBool("isMoving", isMoving);
     }
+    private Vector2 GetTouchInput()
+    {
+        Vector2 result = Vector2.zero;
 
+        // 🖱 Мышь
+        if (Input.GetMouseButtonDown(0))
+            startTouchPos = Input.mousePosition;
+
+        if (Input.GetMouseButton(0))
+        {
+            Vector2 delta = (Vector2)Input.mousePosition - startTouchPos;
+            result = Vector2.ClampMagnitude(delta / maxTouchDistance, 1f);
+        }
+
+        // 📱 Тач
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began)
+                startTouchPos = touch.position;
+
+            if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
+            {
+                Vector2 delta = touch.position - startTouchPos;
+                result = Vector2.ClampMagnitude(delta / maxTouchDistance, 1f);
+            }
+        }
+
+        if (normalizeDiagonal && result.magnitude > 1f)
+            result = result.normalized;
+
+        return result;
+    }
+
+    private Vector2 GetKeyboardInput()
+    {
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        Vector2 input = new Vector2(moveX, moveY);
+
+        if (normalizeDiagonal && input.magnitude > 1f)
+            input = input.normalized;
+
+        return input;
+    }
     private void HandleKeyboardInput()
     {
         float moveX = Input.GetAxisRaw("Horizontal");

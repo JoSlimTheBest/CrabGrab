@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\GitRepositor\\CrabGrab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\crabmovement2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\rapidpressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rapidpressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|c:\\gitrepositor\\crabgrab\\assets\\scripts\\crabmovement2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crabmovement2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|c:\\gitrepositor\\crabgrab\\assets\\scripts\\touchinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\touchinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\touchinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -119,10 +123,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\CanvasScalerEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\rapidpressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rapidpressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|C:\\GitRepositor\\CrabGrab\\assets\\scripts\\camerafollowx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C821772A-E041-32EB-3F9C-D27FD2F9A7CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollowx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -185,19 +185,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
-              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T19:29:28.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\GameManager.cs",
@@ -209,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DisableIfAttribute.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\DisableIfAttribute.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\DisableIfAttribute.cs",
@@ -221,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DisableInPlayModeAttribute.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\DisableInPlayModeAttribute.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\DisableInPlayModeAttribute.cs",
@@ -233,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ToggleCanvasOnEsc.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\ToggleCanvasOnEsc.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ToggleCanvasOnEsc.cs",
@@ -245,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DisableInEditModeAttribute.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\DisableInEditModeAttribute.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\DisableInEditModeAttribute.cs",
@@ -257,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BlockquoteAttribute.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\BlockquoteAttribute.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\BlockquoteAttribute.cs",
@@ -269,20 +257,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CrabMovement2D.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CrabMovement2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CrabMovement2D.cs",
               "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CrabMovement2D.cs",
               "RelativeToolTip": "Assets\\Scripts\\CrabMovement2D.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAiwDQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T14:09:00.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "RapidPressBar.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\RapidPressBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RapidPressBar.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\RapidPressBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RapidPressBar.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwDAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T14:15:00.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\Controllers\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T19:29:28.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SceneProvider.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\SceneProvider.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\SceneProvider.cs",
@@ -294,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerView.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\View\\PlayerView.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Player\\View\\PlayerView.cs",
@@ -306,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameChanger.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\GameChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameChanger.cs",
@@ -318,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TouchInputController.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\TouchInputController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TouchInputController.cs",
@@ -326,12 +339,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TouchInputController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T11:07:28.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T11:07:28.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AssetsOnlyAttribute.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\AssetsOnlyAttribute.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Plugins\\Cainos\\Third Party\\Lucid Editor\\Runtime\\Attributes\\AssetsOnlyAttribute.cs",
@@ -343,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "LICENSE.txt",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Font\\CGXYZ PC Alt\\LICENSE.txt",
               "RelativeDocumentMoniker": "Assets\\Font\\CGXYZ PC Alt\\LICENSE.txt",
@@ -355,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ETFXTarget.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Epic Toon FX\\Demo\\Scripts\\ETFXTarget.cs",
               "RelativeDocumentMoniker": "Assets\\Epic Toon FX\\Demo\\Scripts\\ETFXTarget.cs",
@@ -367,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OneLevel.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\Level\\View\\OneLevel.cs",
@@ -379,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ButtonKeyboardTrigger.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\ButtonKeyboardTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonKeyboardTrigger.cs",
@@ -391,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LanguageManager.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\LocaliztionScripts\\ComponentsToUse\\LanguageManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LocaliztionScripts\\ComponentsToUse\\LanguageManager.cs",
@@ -403,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "EntryPoint.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\EntryPoint.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\EntryPoint.cs",
@@ -415,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PEButtonScript.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Epic Toon FX\\Demo\\Scripts\\VFX Library\\PEButtonScript.cs",
               "RelativeDocumentMoniker": "Assets\\Epic Toon FX\\Demo\\Scripts\\VFX Library\\PEButtonScript.cs",
@@ -427,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "SignWay.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\SignWay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SignWay.cs",
@@ -439,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "TrapAtack.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\TrapAtack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TrapAtack.cs",
@@ -451,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "EndCanvasOpen.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\EndCanvasOpen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndCanvasOpen.cs",
@@ -463,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "KillButtons.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\KillButtons.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KillButtons.cs",
@@ -475,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "EndGame.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\EndGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndGame.cs",
@@ -487,19 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "RapidPressBar.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\RapidPressBar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RapidPressBar.cs",
-              "ToolTip": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\RapidPressBar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RapidPressBar.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAADgv0UAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T14:15:00.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "StartInputBlocker.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\StartInputBlocker.cs",
               "RelativeDocumentMoniker": "Assets\\AssetsCdr\\Assets\\Game\\Scripts\\Core\\StartInputBlocker.cs",
@@ -511,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CrabDiggingOut.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\CrabDiggingOut.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CrabDiggingOut.cs",
@@ -523,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "SeaNoise.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Assets\\Scripts\\SeaNoise.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SeaNoise.cs",
@@ -547,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CanvasScalerEditor.cs",
               "DocumentMoniker": "C:\\GitRepositor\\CrabGrab\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\CanvasScalerEditor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\CanvasScalerEditor.cs",

@@ -48,7 +48,7 @@ public class RapidPressBar : MonoBehaviour
 
     void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetMouseButtonDown(0))
         {
             currentPercent += pressAddPercent;
             currentPercent = Mathf.Clamp(currentPercent, 0, maxPercent);
