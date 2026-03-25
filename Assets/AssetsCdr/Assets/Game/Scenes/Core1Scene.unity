@@ -23056,6 +23056,10 @@ PrefabInstance:
       propertyPath: lightSound
       value: 
       objectReference: {fileID: 8300000, guid: 63f0ae369e49db445b1229e341f95d61, type: 3}
+    - target: {fileID: 4384301162600792617, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4523301605976785034, guid: 0e7e8f06b2ea8de49bc45321918b82fe, type: 3}
       propertyPath: m_Enabled
       value: 0

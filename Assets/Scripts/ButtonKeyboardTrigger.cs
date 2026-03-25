@@ -12,7 +12,7 @@ public class ButtonKeyboardTrigger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)  || Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (button != null)
             {

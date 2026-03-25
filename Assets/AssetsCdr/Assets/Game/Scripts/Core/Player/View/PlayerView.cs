@@ -74,6 +74,10 @@ namespace Game.Scripts.Core.Player.View
             Vector2 target = _rb.position + move * deltaTime;
 
             _rb.MovePosition(target);
+
+            // ✅ ВАЖНО
+            bool isMoving = velocity.sqrMagnitude > 0.01f;
+            SetMoving(isMoving);
         }
 
 
@@ -85,13 +89,10 @@ namespace Game.Scripts.Core.Player.View
 
         public void SetMoving(bool value)
         {
-            if (_isMoving == value)
-                return;
-
             _isMoving = value;
 
-            if (_animator != null)
-                _animator.SetBool(_moveParameter, _isMoving);
+         //   if (_animator != null)
+            //    _animator.SetBool(_moveParameter, _isMoving);
         }
 
         #endregion
@@ -100,7 +101,19 @@ namespace Game.Scripts.Core.Player.View
 
         public void PlayFootstep()
         {
-            if (!_isMoving)
+            // Проверяем, есть ли сейчас ввод от игрока
+            bool inputActive = false;
+
+            // Клавиши WASD / стрелки
+            if (Input.GetAxisRaw("Horizontal") != 0f || Input.GetAxisRaw("Vertical") != 0f)
+                inputActive = true;
+
+            // Мышь / тач
+            if (Input.GetMouseButton(0) || Input.touchCount > 0)
+                inputActive = true;
+
+            // Если нет ввода — шаги не играем
+            if (!inputActive)
                 return;
 
             if (_audioSource == null || _footstepClips == null || _footstepClips.Length == 0)
@@ -110,7 +123,7 @@ namespace Game.Scripts.Core.Player.View
             _audioSource.PlayOneShot(clip);
         }
 
-       
+
         #endregion
 
         #region SmoothMove

@@ -23,11 +23,12 @@ public class TouchInputController : MonoBehaviour
         if (player != null)
         {
            
-                Debug.Log("Move: " + currentInput);
+             //   Debug.Log("Move: " + currentInput);
 
 
 
             player.MoveByVelocity(currentInput.normalized*3.3f, Time.fixedDeltaTime);
+           
         }
     }
 
